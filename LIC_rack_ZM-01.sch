@@ -17078,6 +17078,14 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <text x="137.16" y="93.98" size="1.27" layer="97" font="vector" ratio="12">1.56 V</text>
 <text x="88.9" y="78.74" size="1.27" layer="97" font="vector" ratio="12">1.56 V</text>
 <text x="91.44" y="35.56" size="1.27" layer="97" font="vector" ratio="12">1.56 V</text>
+<wire x1="244.094" y1="102.87" x2="255.27" y2="102.87" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="255.27" y1="102.87" x2="255.27" y2="102.616" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="244.094" y1="113.03" x2="255.27" y2="113.03" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="244.094" y1="123.19" x2="255.27" y2="123.19" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="244.094" y1="87.63" x2="255.27" y2="87.63" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="244.094" y1="133.35" x2="255.27" y2="133.35" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="244.094" y1="143.51" x2="255.27" y2="143.51" width="0.1524" layer="97" style="shortdash"/>
+<text x="247.65" y="107.188" size="1.778" layer="97">USB</text>
 </plain>
 <instances>
 <instance part="P+5" gate="1" x="12.7" y="170.18"/>
@@ -17115,7 +17123,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <instance part="J1" gate="-C26" x="233.68" y="93.98"/>
 <instance part="J1" gate="-C28" x="233.68" y="88.9"/>
 <instance part="J1" gate="-C30" x="233.68" y="83.82"/>
-<instance part="J1" gate="-C32" x="233.68" y="76.2"/>
+<instance part="J1" gate="-C32" x="233.68" y="78.74"/>
 <instance part="GND1" gate="1" x="208.28" y="73.66"/>
 <instance part="P+3" gate="1" x="195.58" y="162.56"/>
 <instance part="U$2" gate="G$1" x="0" y="0"/>
@@ -17217,8 +17225,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <segment>
 <wire x1="231.14" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="154.94" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="76.2" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="78.74" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
 <junction x="226.06" y="154.94"/>
 <pinref part="J1" gate="-C2" pin="MS"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
@@ -17282,9 +17290,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <net name="GND" class="0">
 <segment>
 <wire x1="231.14" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="81.28" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="78.74" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="81.28" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="147.32" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
 <junction x="228.6" y="81.28"/>
